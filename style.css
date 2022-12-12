@@ -1,0 +1,27 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
+
+:root{
+    --cor-de-fundo: #1F1F1F;
+    --cor-de-fundo-escuro: #0D0D0D;
+    --cinza: #333333;
+    --cor-letras: #FBFAFC;
+    --cor-letras-verde: #7FC350;
+    --fonte-principal: "Poppins";
+    --preto: #000000;
+}
+
+body{
+    background: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-letras);
+}
+
+h1{
+    color: #FBFAFC;
+}
